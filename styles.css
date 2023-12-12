@@ -1,0 +1,65 @@
+h1{
+	font-size: 30px;
+	font-family: Helvetica;
+}
+
+h2{
+	font-family: Helvetica;
+}
+
+
+h3{
+	font-family:Helvetica;
+	background:
+}
+
+h4{
+	font-size: 16px;
+	font-family:Helvetica;
+}
+
+.img-caption{
+	font-family: Georgia;
+	font-size: 13px;
+}
+
+.main-img img{
+	width: 600px;
+}
+
+.body-text{
+	font-size:16px;
+	font-family:Georgia;
+	text-align: left;
+	background-color: white;
+	padding-top: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.bottomtext p{
+	font-size: 12px;
+	font-family:Georgia;
+}
+
+body{
+	background-color: #FAEFF7;
+}
+
+.map{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .body-text {width: 70%}
+ .main-img img{width: 100%}
+ .map {width: 70%}
+}
